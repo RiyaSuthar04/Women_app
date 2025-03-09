@@ -40,7 +40,7 @@ A MERN-based web application that allows skilled and unskilled women to create p
    ```
 2. Create a `.env` file in the backend directory and add:
    ```
-   MONGO_URI=your_mongodb_connection_string
+   MONGO_URI=mongodb://localhost:27017/women-chat-app
    ```
 3. MongoDB connection is handled in `index.js`, ensuring the database is properly linked with the application.
 
